@@ -1,0 +1,16 @@
+// /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/zephyr_pre0.elf
+digraph "Device dependency graph" {
+	60 [label="ccm@400fc000\nOrdinal: 60 | Handle: 1\n/soc/ccm@400fc000"]
+	114 [label="dma-controller@400e8000\nOrdinal: 114 | Handle: 2\n/soc/dma-controller@400e8000"]
+	127 [label="uart@40184000\nOrdinal: 127 | Handle: 3\n/soc/uart@40184000"]
+	17 [label="gpio@400c0000\nOrdinal: 17 | Handle: 4\n/soc/gpio@400c0000"]
+	313 [label="gpio@401c0000\nOrdinal: 313 | Handle: 5\n/soc/gpio@401c0000"]
+	98 [label="gpio@401bc000\nOrdinal: 98 | Handle: 6\n/soc/gpio@401bc000"]
+	52 [label="gpio@401b8000\nOrdinal: 52 | Handle: 7\n/soc/gpio@401b8000"]
+	283 [label="spi@40394000\nOrdinal: 283 | Handle: 8\n/soc/spi@40394000"]
+	60 -> 114
+	60 -> 127
+	60 -> 283
+	114 -> 283
+	114 -> 127
+}
