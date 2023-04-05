@@ -94,6 +94,8 @@
 /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/ipc/CMakeFiles/rebuild_cache.dir
 /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/logging/CMakeFiles/edit_cache.dir
 /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/logging/CMakeFiles/rebuild_cache.dir
+/Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/logging/backends/CMakeFiles/edit_cache.dir
+/Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/logging/backends/CMakeFiles/rebuild_cache.dir
 /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/mgmt/CMakeFiles/edit_cache.dir
 /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/mgmt/CMakeFiles/rebuild_cache.dir
 /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/modbus/CMakeFiles/edit_cache.dir
@@ -116,9 +118,6 @@
 /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/task_wdt/CMakeFiles/rebuild_cache.dir
 /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/testsuite/CMakeFiles/edit_cache.dir
 /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/testsuite/CMakeFiles/rebuild_cache.dir
-/Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/testsuite/ztest/CMakeFiles/subsys__testsuite__ztest.dir
-/Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/testsuite/ztest/CMakeFiles/edit_cache.dir
-/Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/testsuite/ztest/CMakeFiles/rebuild_cache.dir
 /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/tracing/CMakeFiles/edit_cache.dir
 /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/tracing/CMakeFiles/rebuild_cache.dir
 /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/zephyr/subsys/usb/CMakeFiles/edit_cache.dir

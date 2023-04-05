@@ -217,7 +217,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=spi_loopback
+CMAKE_PROJECT_NAME:STATIC=zephyr_spi_basic_setup
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=3.3.99
@@ -379,13 +379,13 @@ ZephyrBuildConfiguration_DIR:PATH=ZephyrBuildConfiguration_DIR-NOTFOUND
 Zephyr_DIR:PATH=/Users/julius/zephyrproject/zephyr/share/zephyr-package/cmake
 
 //Value Computed by CMake
-spi_loopback_BINARY_DIR:STATIC=/Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build
+zephyr_spi_basic_setup_BINARY_DIR:STATIC=/Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build
 
 //Value Computed by CMake
-spi_loopback_IS_TOP_LEVEL:STATIC=ON
+zephyr_spi_basic_setup_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-spi_loopback_SOURCE_DIR:STATIC=/Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup
+zephyr_spi_basic_setup_SOURCE_DIR:STATIC=/Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup
 
 
 ########################

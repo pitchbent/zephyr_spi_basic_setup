@@ -1,4 +1,3 @@
-/Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/Kconfig
 /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/Kconfig/Kconfig.dts
 /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/build/Kconfig/Kconfig.modules
 /Users/julius/zephyr-sdk-0.16.0/cmake/zephyr/Kconfig
@@ -41,6 +40,7 @@
 /Users/julius/zephyrproject/modules/lib/gui/lvgl/zephyr/Kconfig.memory
 /Users/julius/zephyrproject/modules/lib/picolibc/zephyr/Kconfig
 /Users/julius/zephyrproject/modules/lib/zscilib/Kconfig.zscilib
+/Users/julius/zephyrproject/zephyr/Kconfig
 /Users/julius/zephyrproject/zephyr/Kconfig.zephyr
 /Users/julius/zephyrproject/zephyr/arch/Kconfig
 /Users/julius/zephyrproject/zephyr/arch/arm/Kconfig

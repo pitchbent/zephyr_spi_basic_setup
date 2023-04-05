@@ -6,7 +6,7 @@
 
 &lpspi1 {
 	slow@0 {
-		compatible = "test-spi-loopback";
+		compatible = "test";
 		reg = <0>;
 		spi-max-frequency = <500000>;
 	};

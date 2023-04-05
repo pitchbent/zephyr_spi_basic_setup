@@ -2854,47 +2854,5 @@
             "void"
         ],
         "time_units.h"
-    ],
-    [
-        [
-            "void ztest_set_fault_valid",
-            "bool valid"
-        ],
-        "ztest_error_hook.h"
-    ],
-    [
-        [
-            "void ztest_set_assert_valid",
-            "bool valid"
-        ],
-        "ztest_error_hook.h"
-    ],
-    [
-        [
-            "void z_test_1cpu_start",
-            "void"
-        ],
-        "ztest_test.h"
-    ],
-    [
-        [
-            "void z_test_1cpu_stop",
-            "void"
-        ],
-        "ztest_test.h"
-    ],
-    [
-        [
-            "void sys_clock_tick_set",
-            "uint64_t tick"
-        ],
-        "ztest_test.h"
-    ],
-    [
-        [
-            "int ztest_run_test_suites",
-            "const void *state"
-        ],
-        "ztest_test_new.h"
     ]
 ]

@@ -38773,12 +38773,6 @@
  * Devicetree node: /soc/spi@40394000/fast@0
  *
  * Node identifier: DT_N_S_soc_S_spi_40394000_S_fast_0
- *
- * Binding (compatible = test-spi-loopback-fast):
- *   /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/dts/bindings/test-spi-loopback-fast.yaml
- *
- * (Descriptions have moved to the Devicetree Bindings Index
- * in the documentation.)
  */
 
 /* Node's full path: */
@@ -38835,22 +38829,6 @@
 #define DT_N_S_soc_S_spi_40394000_S_fast_0_PINCTRL_NUM 0
 
 /* Generic property macros: */
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg {0 /* 0x0 */}
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg_IDX_0 0
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg_IDX_0_EXISTS 1
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg_FOREACH_PROP_ELEM(fn) fn(DT_N_S_soc_S_spi_40394000_S_fast_0, reg, 0)
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg_FOREACH_PROP_ELEM_SEP(fn, sep) fn(DT_N_S_soc_S_spi_40394000_S_fast_0, reg, 0)
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg_FOREACH_PROP_ELEM_VARGS(fn, ...) fn(DT_N_S_soc_S_spi_40394000_S_fast_0, reg, 0, __VA_ARGS__)
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg_FOREACH_PROP_ELEM_SEP_VARGS(fn, sep, ...) fn(DT_N_S_soc_S_spi_40394000_S_fast_0, reg, 0, __VA_ARGS__)
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg_EXISTS 1
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_spi_max_frequency 16000000
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_spi_max_frequency_EXISTS 1
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_duplex 0
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_duplex_ENUM_IDX 0
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_duplex_EXISTS 1
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_frame_format 0
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_frame_format_ENUM_IDX 0
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_frame_format_EXISTS 1
 #define DT_N_S_soc_S_spi_40394000_S_fast_0_P_compatible {"test-spi-loopback-fast"}
 #define DT_N_S_soc_S_spi_40394000_S_fast_0_P_compatible_IDX_0 "test-spi-loopback-fast"
 #define DT_N_S_soc_S_spi_40394000_S_fast_0_P_compatible_IDX_0_STRING_UNQUOTED test-spi-loopback-fast
@@ -38863,16 +38841,22 @@
 #define DT_N_S_soc_S_spi_40394000_S_fast_0_P_compatible_FOREACH_PROP_ELEM_SEP_VARGS(fn, sep, ...) fn(DT_N_S_soc_S_spi_40394000_S_fast_0, compatible, 0, __VA_ARGS__)
 #define DT_N_S_soc_S_spi_40394000_S_fast_0_P_compatible_LEN 1
 #define DT_N_S_soc_S_spi_40394000_S_fast_0_P_compatible_EXISTS 1
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_wakeup_source 0
-#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_wakeup_source_EXISTS 1
+#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg {0 /* 0x0 */}
+#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg_IDX_0 0
+#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg_IDX_0_EXISTS 1
+#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg_FOREACH_PROP_ELEM(fn) fn(DT_N_S_soc_S_spi_40394000_S_fast_0, reg, 0)
+#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg_FOREACH_PROP_ELEM_SEP(fn, sep) fn(DT_N_S_soc_S_spi_40394000_S_fast_0, reg, 0)
+#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg_FOREACH_PROP_ELEM_VARGS(fn, ...) fn(DT_N_S_soc_S_spi_40394000_S_fast_0, reg, 0, __VA_ARGS__)
+#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg_FOREACH_PROP_ELEM_SEP_VARGS(fn, sep, ...) fn(DT_N_S_soc_S_spi_40394000_S_fast_0, reg, 0, __VA_ARGS__)
+#define DT_N_S_soc_S_spi_40394000_S_fast_0_P_reg_EXISTS 1
 
 /*
  * Devicetree node: /soc/spi@40394000/slow@0
  *
  * Node identifier: DT_N_S_soc_S_spi_40394000_S_slow_0
  *
- * Binding (compatible = test-spi-loopback):
- *   /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/dts/bindings/test-spi-loopback.yaml
+ * Binding (compatible = test):
+ *   /Users/julius/Documents/devel/spi_basic_setup/zephyr_spi_basic_setup/dts/bindings/test.yaml
  *
  * (Descriptions have moved to the Devicetree Bindings Index
  * in the documentation.)
@@ -38912,7 +38896,7 @@
 
 /* Existence and alternate IDs: */
 #define DT_N_S_soc_S_spi_40394000_S_slow_0_EXISTS 1
-#define DT_N_INST_0_test_spi_loopback DT_N_S_soc_S_spi_40394000_S_slow_0
+#define DT_N_INST_0_test DT_N_S_soc_S_spi_40394000_S_slow_0
 
 /* Bus info (controller: '/soc/spi@40394000', type: '['spi']') */
 #define DT_N_S_soc_S_spi_40394000_S_slow_0_BUS_spi 1
@@ -38925,7 +38909,7 @@
 #define DT_N_S_soc_S_spi_40394000_S_slow_0_RANGES_NUM 0
 #define DT_N_S_soc_S_spi_40394000_S_slow_0_FOREACH_RANGE(fn) 
 #define DT_N_S_soc_S_spi_40394000_S_slow_0_IRQ_NUM 0
-#define DT_N_S_soc_S_spi_40394000_S_slow_0_COMPAT_MATCHES_test_spi_loopback 1
+#define DT_N_S_soc_S_spi_40394000_S_slow_0_COMPAT_MATCHES_test 1
 #define DT_N_S_soc_S_spi_40394000_S_slow_0_STATUS_okay 1
 
 /* Pin control (pinctrl-<i>, pinctrl-names) properties: */
@@ -38948,11 +38932,11 @@
 #define DT_N_S_soc_S_spi_40394000_S_slow_0_P_frame_format 0
 #define DT_N_S_soc_S_spi_40394000_S_slow_0_P_frame_format_ENUM_IDX 0
 #define DT_N_S_soc_S_spi_40394000_S_slow_0_P_frame_format_EXISTS 1
-#define DT_N_S_soc_S_spi_40394000_S_slow_0_P_compatible {"test-spi-loopback"}
-#define DT_N_S_soc_S_spi_40394000_S_slow_0_P_compatible_IDX_0 "test-spi-loopback"
-#define DT_N_S_soc_S_spi_40394000_S_slow_0_P_compatible_IDX_0_STRING_UNQUOTED test-spi-loopback
-#define DT_N_S_soc_S_spi_40394000_S_slow_0_P_compatible_IDX_0_STRING_TOKEN test_spi_loopback
-#define DT_N_S_soc_S_spi_40394000_S_slow_0_P_compatible_IDX_0_STRING_UPPER_TOKEN TEST_SPI_LOOPBACK
+#define DT_N_S_soc_S_spi_40394000_S_slow_0_P_compatible {"test"}
+#define DT_N_S_soc_S_spi_40394000_S_slow_0_P_compatible_IDX_0 "test"
+#define DT_N_S_soc_S_spi_40394000_S_slow_0_P_compatible_IDX_0_STRING_UNQUOTED test
+#define DT_N_S_soc_S_spi_40394000_S_slow_0_P_compatible_IDX_0_STRING_TOKEN test
+#define DT_N_S_soc_S_spi_40394000_S_slow_0_P_compatible_IDX_0_STRING_UPPER_TOKEN TEST
 #define DT_N_S_soc_S_spi_40394000_S_slow_0_P_compatible_IDX_0_EXISTS 1
 #define DT_N_S_soc_S_spi_40394000_S_slow_0_P_compatible_FOREACH_PROP_ELEM(fn) fn(DT_N_S_soc_S_spi_40394000_S_slow_0, compatible, 0)
 #define DT_N_S_soc_S_spi_40394000_S_slow_0_P_compatible_FOREACH_PROP_ELEM_SEP(fn, sep) fn(DT_N_S_soc_S_spi_40394000_S_slow_0, compatible, 0)
@@ -42510,7 +42494,7 @@
 #define DT_COMPAT_HAS_OKAY_nxp_imx_iomuxc 1
 #define DT_COMPAT_HAS_OKAY_nxp_mcux_rt_pinctrl 1
 #define DT_COMPAT_HAS_OKAY_nxp_imx_lpspi 1
-#define DT_COMPAT_HAS_OKAY_test_spi_loopback 1
+#define DT_COMPAT_HAS_OKAY_test 1
 #define DT_COMPAT_HAS_OKAY_test_spi_loopback_fast 1
 #define DT_COMPAT_HAS_OKAY_nxp_kinetis_lpuart 1
 #define DT_COMPAT_HAS_OKAY_nxp_mcux_12b1msps_sar 1
@@ -42561,7 +42545,7 @@
 #define DT_N_INST_nxp_imx_iomuxc_NUM_OKAY 1
 #define DT_N_INST_nxp_mcux_rt_pinctrl_NUM_OKAY 1
 #define DT_N_INST_nxp_imx_lpspi_NUM_OKAY 1
-#define DT_N_INST_test_spi_loopback_NUM_OKAY 1
+#define DT_N_INST_test_NUM_OKAY 1
 #define DT_N_INST_test_spi_loopback_fast_NUM_OKAY 1
 #define DT_N_INST_nxp_kinetis_lpuart_NUM_OKAY 1
 #define DT_N_INST_nxp_mcux_12b1msps_sar_NUM_OKAY 1
@@ -42683,10 +42667,10 @@
 #define DT_FOREACH_OKAY_VARGS_nxp_imx_lpspi(fn, ...) fn(DT_N_S_soc_S_spi_40394000, __VA_ARGS__)
 #define DT_FOREACH_OKAY_INST_nxp_imx_lpspi(fn) fn(0)
 #define DT_FOREACH_OKAY_INST_VARGS_nxp_imx_lpspi(fn, ...) fn(0, __VA_ARGS__)
-#define DT_FOREACH_OKAY_test_spi_loopback(fn) fn(DT_N_S_soc_S_spi_40394000_S_slow_0)
-#define DT_FOREACH_OKAY_VARGS_test_spi_loopback(fn, ...) fn(DT_N_S_soc_S_spi_40394000_S_slow_0, __VA_ARGS__)
-#define DT_FOREACH_OKAY_INST_test_spi_loopback(fn) fn(0)
-#define DT_FOREACH_OKAY_INST_VARGS_test_spi_loopback(fn, ...) fn(0, __VA_ARGS__)
+#define DT_FOREACH_OKAY_test(fn) fn(DT_N_S_soc_S_spi_40394000_S_slow_0)
+#define DT_FOREACH_OKAY_VARGS_test(fn, ...) fn(DT_N_S_soc_S_spi_40394000_S_slow_0, __VA_ARGS__)
+#define DT_FOREACH_OKAY_INST_test(fn) fn(0)
+#define DT_FOREACH_OKAY_INST_VARGS_test(fn, ...) fn(0, __VA_ARGS__)
 #define DT_FOREACH_OKAY_test_spi_loopback_fast(fn) fn(DT_N_S_soc_S_spi_40394000_S_fast_0)
 #define DT_FOREACH_OKAY_VARGS_test_spi_loopback_fast(fn, ...) fn(DT_N_S_soc_S_spi_40394000_S_fast_0, __VA_ARGS__)
 #define DT_FOREACH_OKAY_INST_test_spi_loopback_fast(fn) fn(0)
@@ -42776,6 +42760,6 @@
  * Bus information for status "okay" nodes of each compatible
  */
 #define DT_COMPAT_nxp_imx_flexspi_nor_BUS_spi 1
-#define DT_COMPAT_test_spi_loopback_BUS_spi 1
+#define DT_COMPAT_test_BUS_spi 1
 #define DT_COMPAT_test_spi_loopback_fast_BUS_spi 1
 #define DT_COMPAT_zephyr_sdmmc_disk_BUS_sd 1

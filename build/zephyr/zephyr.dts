@@ -1172,7 +1172,7 @@
 			pinctrl-0 = < &pinmux_lpspi1 >;
 			pinctrl-names = "default";
 			slow@0 {
-				compatible = "test-spi-loopback";
+				compatible = "test";
 				reg = < 0x0 >;
 				spi-max-frequency = < 0x7a120 >;
 			};

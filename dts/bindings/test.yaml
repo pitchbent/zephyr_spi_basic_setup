@@ -8,6 +8,6 @@ description: |
     This binding provides resources required to build and run the
     tests/drivers/spi/spi_loopback test in Zephyr.
 
-compatible: "test-spi-loopback"
+compatible: "test"
 
-include: [spi-device.yaml]
+include: ["spi-device.yaml"]

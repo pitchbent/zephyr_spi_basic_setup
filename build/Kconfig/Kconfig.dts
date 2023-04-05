@@ -5212,15 +5212,10 @@ DT_COMPAT_TELINK_MACHINE_TIMER := telink,machine-timer
 config DT_HAS_TELINK_MACHINE_TIMER_ENABLED
 	def_bool $(dt_compat_enabled,$(DT_COMPAT_TELINK_MACHINE_TIMER))
 
-DT_COMPAT_TEST_SPI_LOOPBACK := test-spi-loopback
+DT_COMPAT_TEST := test
 
-config DT_HAS_TEST_SPI_LOOPBACK_ENABLED
-	def_bool $(dt_compat_enabled,$(DT_COMPAT_TEST_SPI_LOOPBACK))
-
-DT_COMPAT_TEST_SPI_LOOPBACK_FAST := test-spi-loopback-fast
-
-config DT_HAS_TEST_SPI_LOOPBACK_FAST_ENABLED
-	def_bool $(dt_compat_enabled,$(DT_COMPAT_TEST_SPI_LOOPBACK_FAST))
+config DT_HAS_TEST_ENABLED
+	def_bool $(dt_compat_enabled,$(DT_COMPAT_TEST))
 
 DT_COMPAT_TI_ADS1013 := ti,ads1013
 
